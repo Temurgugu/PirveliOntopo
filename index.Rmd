@@ -14,11 +14,14 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-## How to get Ontopo
+## How to get Ontopo?
+
+Check final [destination](https://goo.gl/maps/JEShWW4shghSaDLCA) before deciding to visit Pirveli Ontopo
 
 The village Ontopo is part of the [Abasha](https://www.google.com/maps/place/%E1%83%90%E1%83%91%E1%83%90%E1%83%A8%E1%83%90/data=!4m2!3m1!1s0x405c540482872587:0xb63670b21d6a34b1?sa=X&ved=2ahUKEwj3z6nOlK_4AhUASvEDHRdFCuEQ8gF6BAhgEAE) Municipality
 
 From Kutaisi International Airport 
+
 
 
 
