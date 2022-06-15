@@ -8,3 +8,4 @@ navbar:
     - text: "Ontopo"
       href: index.html
 output: distill::distill_article
+theme: "ontopo.css"

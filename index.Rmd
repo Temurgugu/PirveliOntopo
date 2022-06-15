@@ -1,7 +1,7 @@
 ---
-title: "Pirveli Ontopo"
+title: "Village house"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Explore and experience rural life.
 site: distill::distill_website
 ---
 
