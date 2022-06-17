@@ -1,7 +1,7 @@
 ---
-title: "Village house"
+title: "MtaBari"
 description: |
-  Explore and experience rural life.
+  Welcome to the fake museum, but experience aftentic hospitality
 site: distill::distill_website
 ---
 
@@ -25,8 +25,20 @@ From Kutaisi International Airport
 
 
 
-## What to explore in Ontopo
+## What to explore around Ontopo
+
+📍 Konstantine Gamsakhurdia House Museum - [Location](https://www.google.com/search?tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=ALiCzsb796H-xg8N9UQ-0kV6xXgYoU8s9w:1655321163807&q=Writer-academic+Konstantine+Gamsakhurdia+House+Museum&rflfq=1&num=10&ved=2ahUKEwjqutTvl7D4AhVQR_EDHSHvAckQtgN6BAgMEAY#rlfi=hd:;si:;mv:[[42.252031485689564,42.22968750856567],[42.23271498763947,42.18763047121215],null,[42.24237397588597,42.20865898988891],15]), [Info](https://georgiantravelguide.com/en/mtseral-akademikos-konstantine-gamsakhurdias-sakhl-muzeumi) 
+
+📍 Nokalakevi Fortress - [Location](https://www.google.com/maps/place/%E1%83%9C%E1%83%9D%E1%83%A5%E1%83%90%E1%83%9A%E1%83%90%E1%83%A5%E1%83%94%E1%83%95%E1%83%98+%2F+Nokalakevi+Fortress/@42.3557788,42.1929957,642m/data=!3m1!1e3!4m5!3m4!1s0x405c4443e4fc247f:0xd97b044faec3e07c!8m2!3d42.3572346!4d42.1945703), [Info](https://georgiantravelguide.com/en/nokalakevi)
+
+📍 Hot sulfur spring - [Location](https://www.google.com/maps/place/Hot+sulfur+spring/@42.3566536,42.1969508,7901m/data=!3m1!1e3!4m11!1m5!8m4!1e2!2s103431273915104262293!3m1!1e1!3m4!1s0x405c4414936f53a5:0x31f8163ba5b300a1!8m2!3d42.3652135!4d42.1951369)
+
+📍 Balda Canyon - [Location](https://www.google.com/maps/place/%E1%83%91%E1%83%90%E1%83%9A%E1%83%93%E1%83%98%E1%83%A1+%E1%83%99%E1%83%90%E1%83%9C%E1%83%98%E1%83%9D%E1%83%9C%E1%83%98%E1%83%A1+%E1%83%91%E1%83%A3%E1%83%9C%E1%83%94%E1%83%91%E1%83%98%E1%83%A1+%E1%83%AB%E1%83%94%E1%83%92%E1%83%9A%E1%83%98/@42.484681,42.3875314,4938m/data=!3m1!1e3!4m11!1m5!8m4!1e2!2s103431273915104262293!3m1!1e1!3m4!1s0x405c6e8e3885d7cb:0x658fb0a58221bfe9!8m2!3d42.4886657!4d42.4096552), [Info](https://georgiantravelguide.com/en/baldis-kanioni)
+
+📍 Martvili Canyon - [Location](https://www.google.com/maps/place/%E1%83%9B%E1%83%90%E1%83%A0%E1%83%A2%E1%83%95%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1+%E1%83%99%E1%83%90%E1%83%9C%E1%83%98%E1%83%9D%E1%83%9C%E1%83%98/@42.4563326,42.3651215,4163m/data=!3m1!1e3!4m11!1m5!8m4!1e2!2s103431273915104262293!3m1!1e1!3m4!1s0x0:0xd0321494bcf00444!8m2!3d42.4572007!4d42.3769368), [Info](https://georgiantravelguide.com/en/martvili-canyon)
 
 
+
+🏊️ Swimming places - [Tekhuri river](https://www.google.com/maps/place/42%C2%B021'22.8%22N+42%C2%B011'34.6%22E/@42.3563226,42.1909203,673m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0xe366edcd9a5214f1!7e2!8m2!3d42.3563189!4d42.192942)
 
 ## Tast local food
