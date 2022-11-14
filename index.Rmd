@@ -17,6 +17,8 @@ library(tidyverse)
 library(hrbrthemes)
 library(viridis)
 library(ggwordcloud)
+library(DT)
+
 
 ```
 
@@ -45,4 +47,24 @@ income <- ggplot(statement_aim, aes(aim, GEL, fill = aim)) +
 
 income
 
+```
+
+
+
+ბიბლიოთეკის მხარდამჭერები 
+
+```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 3.4, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
+
+
+
+statement <- read.csv("/Users/macbook/Documents/test/ggplot/OnLaibrary/data/statement.csv")
+
+
+statement_income <- statement %>%
+             dplyr::filter(aim == "ჩარიცხვა") %>%
+             dplyr::select(c("name")) %>%
+  dplyr::distinct()
+
+
+datatable(statement_income)
 ```
