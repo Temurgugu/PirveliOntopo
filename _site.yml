@@ -7,8 +7,6 @@ navbar:
   right:
     - text: "ბიბლიოთეკა"
       href: index.html
-    - text: "ფინანსური ანგარიში"
-      href: index_12.html
 
 output: distill::distill_article
 theme: "ontopo.css"

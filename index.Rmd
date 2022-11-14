@@ -1,5 +1,5 @@
 ---
-title: "ბიბლიოთეკისთვის"
+title: "ანგარიში"
 description: |
  Welcome to the fake museum, but experience authentic hospitality
 site: distill::distill_website
@@ -11,5 +11,38 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
+
+library(ggplot2)
+library(tidyverse)
+library(hrbrthemes)
+library(viridis)
+library(ggwordcloud)
+
+```
+
+
+
+
+
+```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 3.4, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
+
+statement <- read.csv("/Users/macbook/Documents/test/ggplot/OnLaibrary/data/statement.csv")
+
+
+
+statement_aim <- statement %>% 
+  group_by(aim) %>% 
+  summarise(GEL = sum(gel))
+
+
+# bar chart 
+
+income <- ggplot(statement_aim, aes(aim, GEL, fill = aim)) +
+  geom_col() +
+  theme_ipsum(base_family="Sylfaen") +
+  scale_fill_viridis(discrete = T)
+  
+
+income
 
 ```
