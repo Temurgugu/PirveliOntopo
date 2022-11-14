@@ -1,7 +1,6 @@
 ---
 title: "ანგარიში"
 description: |
- Welcome to the fake museum, but experience authentic hospitality
 site: distill::distill_website
 ---
 
