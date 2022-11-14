@@ -1,20 +1,12 @@
 {
   "articles": [
     {
-      "path": "index_1.html",
-      "title": "ბიბლიოთეკისთვის",
-      "description": "Welcome to the fake museum, but experience authentic hospitality\n",
-      "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-11-14T13:18:39+04:00"
-    },
-    {
       "path": "index.html",
       "title": "ანგარიში",
       "description": "Welcome to the fake museum, but experience authentic hospitality\n",
       "author": [],
       "contents": "\n\n\n\n\n\n\n",
-      "last_modified": "2022-11-14T13:20:01+04:00"
+      "last_modified": "2022-11-14T13:30:26+04:00"
     }
   ],
   "collections": []
