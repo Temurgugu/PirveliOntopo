@@ -66,5 +66,5 @@ statement_income <- statement %>%
   dplyr::distinct()
 
 
-datatable(statement_income)
+datatable(statement_income,  colnames = c("N", "სახელი, გვარი"))
 ```
