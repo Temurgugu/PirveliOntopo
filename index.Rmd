@@ -1,5 +1,5 @@
 ---
-title: "ანგარიში"
+title: "ბიბლიოთეკის მხარდაჭერა"
 description: |
 site: distill::distill_website
 ---
@@ -24,33 +24,7 @@ library(DT)
 
 
 
-
-```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 3.4, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
-
-statement <- read.csv("/Users/macbook/Documents/test/ggplot/OnLaibrary/data/statement.csv")
-
-
-
-statement_aim <- statement %>% 
-  group_by(aim) %>% 
-  summarise(GEL = sum(gel))
-
-
-# bar chart 
-
-income <- ggplot(statement_aim, aes(aim, GEL, fill = aim)) +
-  geom_col() +
-  theme_ipsum(base_family="Sylfaen") +
-  scale_fill_viridis(discrete = T)
-  
-
-income
-
-```
-
-
-
-ბიბლიოთეკის მხარდამჭერები 
+**ბიბლიოთეკის მხარდამჭერები**
 
 ```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 3.4, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
 
@@ -65,5 +39,18 @@ statement_income <- statement %>%
   dplyr::distinct()
 
 
-datatable(statement_income,  colnames = c("N", "სახელი, გვარი"))
+Table <- datatable(statement_income,  colnames = c("N", "სახელი, გვარი"),
+          clas='hover cell-border stripe dt-head-right',
+          options = list(searching=FALSE, pageLength=20, dom='Bfrtip'))
+Table
+```
+
+
+
+
+```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 3.4, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
+
+
+
+
 ```

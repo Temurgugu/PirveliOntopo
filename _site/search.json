@@ -2,10 +2,17 @@
   "articles": [
     {
       "path": "index.html",
-      "title": "ანგარიში",
+      "title": "ბიბლიოთეკის მხარდაჭერა",
       "author": [],
-      "contents": "\n\n\n\nბიბლიოთეკის მხარდამჭერები\n\n\n\n\n\n\n",
-      "last_modified": "2022-11-14T13:57:14+04:00"
+      "contents": "\nბიბლიოთეკის მხარდამჭერები\n\n\n\n\n\n\n\n\n\n",
+      "last_modified": "2022-11-16T16:01:32+04:00"
+    },
+    {
+      "path": "team.html",
+      "title": "სამზრუნველოს წევრები",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2022-11-16T16:00:24+04:00"
     }
   ],
   "collections": []
