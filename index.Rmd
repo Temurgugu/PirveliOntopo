@@ -22,7 +22,7 @@ library(DT)
 ```
 
 
-**მარათონი ახალწლამდე ⛄ **
+**მარათონი ახალ წლამდე ⛄ **
 
 ჩარიცხულია 170 ₾
 
@@ -42,11 +42,12 @@ ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
   theme_void()+
   coord_flip()+
   theme(legend.position = "None")+
-  scale_fill_manual(values=c("#7d9998", "white"))+
+  scale_fill_manual(values=c("#255251", "white"))+
   scale_color_manual(values=c("#7d9998", "#7d9998"))
 
 
 ```
+
 
 
 **ბიბლიოთეკის მხარდამჭერები**
@@ -69,3 +70,26 @@ Table <- datatable(statement_income,  colnames = c("N", "სახელი, გ
           options = list(searching=FALSE, pageLength=20, dom='Bfrtip'))
 Table
 ```
+
+
+
+
+
+<div class="warning" style='background-color:#8dc9b8; color: #69337A; border-left: solid #0d5440 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
+სულ შეგროვილია 290 ₾
+
+ბიბლიოთეკის მხარდაჭერისთვის დახარჯულია 120 ₾
+
+- პერიოდული გამოცემები 120 ₾
+
+- წიგნები 0 ₾
+
+- ინვენტარი 0 ₾
+
+</p></span>
+</div>
+
