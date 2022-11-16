@@ -22,6 +22,31 @@ library(DT)
 ```
 
 
+**მარათონი ახალწლამდე ⛄ **
+
+ჩარიცხულია 170 ₾
+
+```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 1, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
+
+status <- c("income", "left")
+x <- c("same", "same")
+gel <- c(170, 3000)
+
+df <- data.frame(status, gel, x)
+
+
+ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) + 
+  geom_col(position = position_stack(reverse = TRUE)) +
+  geom_text(aes(label = sort(gel)),
+            hjust = 0, nudge_x = 0) +
+  theme_void()+
+  coord_flip()+
+  theme(legend.position = "None")+
+  scale_fill_manual(values=c("#7d9998", "white"))+
+  scale_color_manual(values=c("#7d9998", "#7d9998"))
+
+
+```
 
 
 **ბიბლიოთეკის მხარდამჭერები**
@@ -43,14 +68,4 @@ Table <- datatable(statement_income,  colnames = c("N", "სახელი, გ
           clas='hover cell-border stripe dt-head-right',
           options = list(searching=FALSE, pageLength=20, dom='Bfrtip'))
 Table
-```
-
-
-
-
-```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 3.4, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
-
-
-
-
 ```
