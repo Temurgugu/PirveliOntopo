@@ -30,7 +30,7 @@ library(DT)
 
 status <- c("income", "left")
 x <- c("same", "same")
-gel <- c(170, 3000)
+gel <- c(170, 2000)
 
 df <- data.frame(status, gel, x)
 
@@ -75,12 +75,12 @@ Table
 
 
 
-<div class="warning" style='background-color:#8dc9b8; color: #69337A; border-left: solid #0d5440 4px; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color:#60a2a8; color: #ebf4f5; border-left: solid #06707a 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
-სულ შეგროვილია 290 ₾
+**სულ შეგროვილია 290 ₾**
 
 ბიბლიოთეკის მხარდაჭერისთვის დახარჯულია 120 ₾
 
