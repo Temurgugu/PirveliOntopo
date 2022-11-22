@@ -30,7 +30,7 @@ library(DT)
 
 status <- c("income", "left")
 x <- c("same", "same")
-gel <- c(170, 2000)
+gel <- c(250, 1000)
 
 df <- data.frame(status, gel, x)
 
