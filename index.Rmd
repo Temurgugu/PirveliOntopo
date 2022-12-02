@@ -24,13 +24,13 @@ library(DT)
 
 **მარათონი ახალ წლამდე ⛄ **
 
-ჩარიცხულია 170 ₾
+ჩარიცხულია 850 ₾
 
 ```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 1, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
 
 status <- c("income", "left")
 x <- c("same", "same")
-gel <- c(250, 1000)
+gel <- c(850, 1500)
 
 df <- data.frame(status, gel, x)
 
