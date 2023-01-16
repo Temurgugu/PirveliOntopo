@@ -24,13 +24,13 @@ library(DT)
 
 **მარათონი ახალ წლამდე ⛄ **
 
-ჩარიცხულია 1270 ₾
+ჩარიცხულია 1290 ₾
 
 ```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 1, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
 
 status <- c("income", "left")
 x <- c("same", "same")
-gel <- c(1270, 230)
+gel <- c(1290, 0)
 
 df <- data.frame(status, gel, x)
 
@@ -80,7 +80,7 @@ Table
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
-**სულ შეგროვილია 1390 ₾**
+**სულ შეგროვილია 1410 ₾**
 
 ბიბლიოთეკის მხარდაჭერისთვის დახარჯულია 365 ₾
 
