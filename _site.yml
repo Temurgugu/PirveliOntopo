@@ -4,6 +4,9 @@ description: |
   ბიბლიოთეკის სამზრუნველო
 output_dir: "_site"
 navbar:
+  logo:
+    image: images/logo.png
+    href: https://ontopo.netlify.app/
   right:
     - text: "მხარდაჭერა"
       href: index.html
