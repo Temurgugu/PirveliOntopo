@@ -21,12 +21,17 @@ library(DT)
 
 ```
 
+![](images/cover.png){width=100%}
 
-**მარათონი ახალ წლამდე (დასრულებულია) ⛄ **
+მოგესალმებით!
 
-ჩარიცხულია 1290 ₾
+გვიხარია, რომ ჩვენი ინიციატივით დაინტერესდი და მზა ხარ მხარი დაუჭირო სოფელ ონტოფოს ბიბლიოთეკის განვითარებას, მის მულტიფუნქციურ სივრჩედ ჩამოყალიბებას.
 
-```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 1, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
+პირველი ნაბიჯების გადასადგმელად, კერძოდ წიგნსაცავისთვის ოთახის გარემონტებში, სამკითხველოსთვის სივრცის გამოთავისუფლებასა და ავეჯით მოწყობაში თქვენი მხარდაჭერა გვჭირდება. 
+
+
+
+```{r echo = FALSE, show = FALSE,   message = FALSE, warning=FALSE, fig.height = 1, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
 
 status <- c("income", "left")
 x <- c("same", "same")
@@ -35,7 +40,7 @@ gel <- c(1290, 0)
 df <- data.frame(status, gel, x)
 
 
-ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) + 
+tg <- ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) + 
   geom_col(position = position_stack(reverse = TRUE)) +
   geom_text(aes(label = sort(gel)),
             hjust = 0, nudge_x = 0) +
@@ -45,10 +50,9 @@ ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
   scale_fill_manual(values=c("#255251", "white"))+
   scale_color_manual(values=c("#7d9998", "#7d9998"))
 
-
 ```
 
-
+ონტოფოს ბიბლიოთეკის სამზრუნველო 2022 წელს აღდგა მხარდამჭერების დახმარებით მნიშვენელოვანი ნაბიჯები გადავდგით.
 
 **ბიბლიოთეკის მხარდამჭერები**
 
