@@ -25,10 +25,26 @@ library(DT)
 
 მოგესალმებით!
 
-გვიხარია, რომ [ჩვენი](https://ontopo.netlify.app/team.html) ინიციატივით დაინტერესდი და მზა ხარ მხარი დაუჭირო სოფელ ონტოფოს ბიბლიოთეკის განვითარებას, მის მულტიფუნქციურ სივრცედ ჩამოყალიბებას.
+გვიხარია, რომ [ჩვენი](https://ontopo.netlify.app/team.html) ინიციატივით დაინტერესდით და მზად ხართ დაუჭიროთ მხარი სოფელ ონტოფოს ბიბლიოთეკის განვითარებას, მის მულტიფუნქციურ სივრცედ ჩამოყალიბებას.
 
-პირველი ნაბიჯების გადასადგმელად, კერძოდ წიგნსაცავისთვის ოთახის გარემონტებაში, სამკითხველოსთვის სივრცის გამოთავისუფლებასა და ავეჯით მოწყობაში თქვენი მხარდაჭერა გვჭირდება. 
+პირველი ნაბიჯების გადასადგმელად, კერძოდ წიგნსაცავისთვის ოთახის გარემონტებასა და სამკითხველოსთვის სივრცის ავეჯით მოწყობაში თქვენი მხარდაჭერა გვჭირდება.
 
+ონტოფოს ბიბლიოთეკის სამზრუნველო 2022 წელს აღდგა, მხარდამჭერების დახმარებით მნიშვნელოვანი ნაბიჯები გადავდგით. ონტოფოს ბიბლიოთეკა იღებს National Geographic საქართველოსა და კვირის პალიტრის პერიოდულ გამოცემებს, ბიბლიოთეკაში განახლდა საბავშვო წიგნების (ქართული და ინგლისურ ენოვანი) ფონდი.  
+
+**ფინანსური მხარდაჭერა**
+
+<div class="warning" style='background-color:#208b9b; color: #ebf4f5; border-left: solid #06707a 4px; border-right: solid #06707a 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<p style='margin-left:1em;'>
+
+![](images/bg.png){width=10%}GE08BG0000000161681915
+
+![](images/tbc.png){width=10%}GE16TB7647745061100123
+
+
+</p></span>
+</div>
 
 
 ```{r echo = FALSE, show = FALSE,   message = FALSE, warning=FALSE, fig.height = 1, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
@@ -52,7 +68,7 @@ tg <- ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
 
 ```
 
-ონტოფოს ბიბლიოთეკის სამზრუნველო 2022 წელს აღდგა მხარდამჭერების დახმარებით მნიშვნელოვანი ნაბიჯები გადავდგით.
+<p/>
 
 **ბიბლიოთეკის მხარდამჭერები**
 
@@ -71,18 +87,18 @@ statement_income <- statement %>%
 
 Table <- datatable(statement_income,  colnames = c("N", "სახელი, გვარი"),
           clas='hover cell-border stripe dt-head-right',
-          options = list(searching=FALSE, pageLength=20, dom='Bfrtip'))
+          options = list(searching=FALSE, pageLength=10, dom='Bfrtip'))
 Table
 ```
 
 
-
-
-
-<div class="warning" style='background-color:#60a2a8; color: #ebf4f5; border-left: solid #06707a 4px; border-radius: 4px; padding:0.7em;'>
+<div class="warning" style='background-color:#60a2a8; color: #ebf4f5; border-left: solid #06707a 4px; border-right: solid #06707a 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
+
+
+
 
 **სულ შეგროვილია 1410 ₾**
 
