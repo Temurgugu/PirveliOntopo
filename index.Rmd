@@ -43,7 +43,7 @@ library(DT)
 
 ![](images/tbc.png){width=10%}GE16TB7647745061100123 (საქართველოდან)
 
-![](images/r.png){width=10%} (უცხოეთიდან)
+![](images/r.png){width=10%}CH3704835284238523000 (უცხოეთიდან)
 </p></span>
 </div>
 
