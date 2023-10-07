@@ -12,6 +12,8 @@ navbar:
       href: index.html
     - text: "გუნდი"
       href: team.html
+    - text: "სიახლეები"
+      href: stories.html
 
 output: distill::distill_article
 theme: "ontopo.css"

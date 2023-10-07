@@ -21,7 +21,7 @@ library(DT)
 
 ```
 
-![](images/cover.png){width=100%}
+![© თათია ნადარეიშვილი](images/cover.png){width=100%}
 
 მოგესალმებით,
 
@@ -81,7 +81,7 @@ tg <- ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
 
 
 
-statement <- read.csv("/Users/macbook/Documents/test/ggplot/OnLaibrary/data/statement.csv")
+statement <- read.csv("/Users/macbook/Documents/R/ggplot/OnLaibrary/data/statement.csv")
 
 
 statement_income <- statement %>%

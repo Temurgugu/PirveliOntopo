@@ -88,26 +88,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>ბიბლიოთეკის სამზრუნველო: ბიბლიოთეკის მხარდაჭერა</title>
+  <title>ბიბლიოთეკის სამზრუნველო: სიახლეები</title>
 
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="ბიბლიოთეკის სამზრუნველო: ბიბლიოთეკის მხარდაჭერა"/>
+  <meta property="og:title" content="ბიბლიოთეკის სამზრუნველო: სიახლეები"/>
   <meta property="og:type" content="article"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="ბიბლიოთეკის სამზრუნველო"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="ბიბლიოთეკის სამზრუნველო: ბიბლიოთეკის მხარდაჭერა"/>
+  <meta property="twitter:title" content="ბიბლიოთეკის სამზრუნველო: სიახლეები"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site"]}},"value":[{"type":"character","attributes":{},"value":["ბიბლიოთეკის მხარდაჭერა"]},{"type":"NULL"},{"type":"character","attributes":{},"value":["distill::distill_website"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["სიახლეები"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2382,15 +2382,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }</style>
   <!--/radix_placeholder_distill-->
   <script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
-  <script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
-  <link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-  <script src="site_libs/datatables-binding-0.25/datatables.js"></script>
-  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
-  <link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
-  <script src="site_libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
-  <link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
-  <script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2405,12 +2396,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body>
+<body class="layout-listing">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"ბიბლიოთეკის მხარდაჭერა","authors":[]}
+{"title":"სიახლეები","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2435,9 +2426,168 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
+<!--radix_placeholder_article_listing-->
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).on("load", function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
+
+<div class="posts-container posts-apply-limit l-page">
+<div class="posts-list">
+<h1 class="posts-list-caption" data-caption="სიახლეები">სიახლეები</h1>
+<a href="posts/orbelianimeti/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":[]}</script>
+<div class="metadata">
+<div class="publishedDate">July 8, 2022</div>
+<div class="dt-authors">
+<div class="dt-author">ონტოფოს ბიბლიოთეკის სამზრუნველო</div>
+</div>
+</div>
+<div class="thumbnail">
+<img src="https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/384129623_218509897908628_3744300223929606263_n.jpg?_nc_cat=102&amp;ccb=1-7&amp;_nc_sid=49d041&amp;_nc_ohc=pWO-pJ1ODOkAX-1iJj_&amp;_nc_ht=scontent.ftbs5-3.fna&amp;oh=00_AfBGMBoGS8uh9fyBCo3oS2TJPm1GznhMfOgcqSajO4KXxw&amp;oe=65271FA3"/>
+</div>
+<div class="description">
+<h2>ონტოფოს ბიბლიოთეკა ორბელიანი მეტის იდეების კონკურსის გამარჯვებულია</h2>
+<div class="dt-tags"></div>
+<p>ორბელიანი მეტის იდეების კონკურსის გამარჯვებული გახდა ონტოფოს ბიბლიოთეკის სამზრუნველოს წარდგენილი პროექტი  ""ონტოფოს ბიბლიოთეკის მულტიფუნქციური სივრცე"</p>
+</div>
+</a>
+</div>
+<div class="posts-more">
+<a href="#">More articles &raquo;</a>
+</div>
+</div>
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>ბიბლიოთეკის მხარდაჭერა</h1>
+<h1>სიახლეები</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
@@ -2445,49 +2595,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<figure>
-<img src="images/cover.png" style="width:100.0%" alt="© თათია ნადარეიშვილი" />
-<figcaption aria-hidden="true">© თათია ნადარეიშვილი</figcaption>
-</figure>
-<p>მოგესალმებით,</p>
-<p>2022 წელს მხარდამჭერების დახმარებით აღვადგინეთ <a href="https://ontopo.netlify.app/team.html">ონტოფოს ბიბლიოთეკის სამზრუნველო</a> და დავიწყეთ ბიბლიოთეკის განახლება. ამჯამად ბიბლიოთეკა იღებს National Geographic საქართველოსა და კვირის პალიტრის პერიოდულ გამოცემებს. აგრეთვე, ბიბლიოთეკაში განახლდა საბავშვო წიგნების (ქართული და ინგლისურ ენოვანი) ფონდი.</p>
-<p>რა თქმა უნდა, ბიბლიოთეკის განვითარებაზე ზრუნვა გრძელდება და შემდეგ ეტაპზე, იგეგმება წიგნსაცავისთვის ოთახის გარემონტება და სამკითხველო სივრცის ავეჯით მოწყობა.</p>
-<p>მოხარულები ვართ, რომ დაინტერესდით მხარი დაუჭიროთ სოფელ ონტოფოში ბიბლიოთეკის აღდგენასა და მის მულტიფუნქციურ სივრცედ ჩამოყალიბებას.</p>
-<p>სამზრუნველოს საორგანიზაციო ჯგუფი ღიაა ახალი წევრების მიღებისთვის. დაინტერესების შემთხვევაში მოგვწერეთ <a href="https://www.facebook.com/ontofolibrary">facebook-ზე</a></p>
-<p><strong>ფინანსური მხარდაჭერისთვის 👇 </strong></p>
-<div class="warning" style='background-color:#208b9b; color: #ebf4f5; border-left: solid #06707a 4px; border-right: solid #06707a 4px; border-radius: 4px; padding:0.7em;'>
-<span>
-<p style='margin-top:1em; text-align:center'>
-<p style="margin-left:1em;">
-<p><img src="images/bg.png" style="width:10.0%" />GE08BG0000000161681915 (საქართველოდან)</p>
-<p><img src="images/tbc.png" style="width:10.0%" />GE16TB7647745061100123 (საქართველოდან)</p>
-<img src="images/r.png" style="width:10.0%" />CH3704835284238523000 (უცხოეთიდან)
-</p>
-</span>
-</div>
-<div class="layout-chunk" data-layout="l-body">
-
-</div>
-<p/>
-<p><strong>ბიბლიოთეკის მხარდამჭერები</strong></p>
-<div class="layout-chunk" data-layout="l-body">
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-93504c0b124ec95a6add" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-93504c0b124ec95a6add">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6","7","8","9","10","11","12","13"],["თეონა ნადარეიშვილი","სალომე გოჩოლეიშვილი","ნაირა ნადარაია","თემურ გუგუშვილი ","ლალი ნადარეიშვილი","გვანცა სალუქვაძე ","სალომე ცხადაძე","მაია დანელია","თათია ნადარეიშვილი","ნინი ბჟალავა","ქეთევან თოფურია","ზურაბი გიგინეიშვილი ","ნინო გვილავა"]],"container":"<table class=\"hover cell-border stripe dt-head-right\">\n  <thead>\n    <tr>\n      <th>N<\/th>\n      <th>სახელი, გვარი<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"pageLength":10,"dom":"Bfrtip","columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-</div>
-<div class="warning" style='background-color:#60a2a8; color: #ebf4f5; border-left: solid #06707a 4px; border-right: solid #06707a 4px; border-radius: 4px; padding:0.7em;'>
-<span>
-<p style='margin-top:1em; text-align:center'>
-<p style="margin-left:1em;">
-<p><strong>სულ შეგროვილია 2322.0 ₾</strong></p>
-<p>ბიბლიოთეკის მხარდაჭერისთვის <a href="https://drive.google.com/drive/u/1/folders/1leNbNpsL8hj3O1xEcSu_twUhXZqa1RfR">დახარჯულია</a> 451.4 ₾</p>
-<ul>
-<li><p>პერიოდული გამოცემები 206.4 ₾</p></li>
-<li><p>წიგნები 245 ₾</p></li>
-<li><p>ინვენტარი 0 ₾</p></li>
-</ul>
-</p>
-</span>
-</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
