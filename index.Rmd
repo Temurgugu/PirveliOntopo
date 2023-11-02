@@ -69,7 +69,7 @@ tg <- ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
 
 <p/>
 
-**ბიბლიოთეკის მხარდამჭერები (მხარდამჭერების სია განახლდება ქრაუდფანდინგის კამპანიის დასრულების შემდეგ)**
+**ბიბლიოთეკის მხარდამჭერები**
 
 ```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 3.4, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
 
