@@ -38,18 +38,11 @@ library(DT)
 
 **ფინანსური მხარდაჭერისთვის 👇 **
 
-<div class="warning" style='background-color:#208b9b; color: #ebf4f5; border-left: solid #06707a 4px; border-right: solid #06707a 4px; border-radius: 4px; padding:0.7em;'>
-<span>
-<p style='margin-top:1em; text-align:center'>
-<p style='margin-left:1em;'>
+გადადით [ორბელიანი მეტის პლატფორმაზე](https://orbelianimeti.ge/product/%e1%83%a8%e1%83%94%e1%83%95%e1%83%a5%e1%83%9b%e1%83%9c%e1%83%90%e1%83%97-%e1%83%9d%e1%83%9c%e1%83%a2%e1%83%9d%e1%83%a4%e1%83%9d%e1%83%a1-%e1%83%91%e1%83%98%e1%83%91%e1%83%9a%e1%83%98%e1%83%9d%e1%83%97/?fbclid=IwAR1ypq3I4hlxdut-GbLRSdp_cG8XmXh2TIoIRgGivqLnjrbfNDy9sdWyXDM) და მხარი დაუჭირე ჩვენ ინიციატივას!
 
-![](images/bg.png){width=10%}GE08BG0000000161681915 (საქართველოდან)
+<iframe src="https://orbelianimeti.ge/product/%e1%83%a8%e1%83%94%e1%83%95%e1%83%a5%e1%83%9b%e1%83%9c%e1%83%90%e1%83%97-%e1%83%9d%e1%83%9c%e1%83%a2%e1%83%9d%e1%83%a4%e1%83%9d%e1%83%a1-%e1%83%91%e1%83%98%e1%83%91%e1%83%9a%e1%83%98%e1%83%9d%e1%83%97/?fbclid=IwAR1ypq3I4hlxdut-GbLRSdp_cG8XmXh2TIoIRgGivqLnjrbfNDy9sdWyXDM" width="100%" height="500"></iframe>
 
-![](images/tbc.png){width=10%}GE16TB7647745061100123 (საქართველოდან)
 
-![](images/r.png){width=10%}CH3704835284238523000 (უცხოეთიდან)
-</p></span>
-</div>
 
 
 ```{r echo = FALSE, show = FALSE,   message = FALSE, warning=FALSE, fig.height = 1, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
