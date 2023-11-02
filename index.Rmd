@@ -68,7 +68,7 @@ tg <- ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
 
 <p/>
 
-**ბიბლიოთეკის მხარდამჭერები**
+**ბიბლიოთეკის მხარდამჭერები (მხარდამჭერების სია განახლდება ქრაუდფანდინგის კამპანიის დასრულების შემდეგ)**
 
 ```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 3.4, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
 
@@ -98,7 +98,7 @@ Table
 
 
 
-**სულ შეგროვილია 2322.0 ₾**
+**სულ შეგროვილია 2322.0 ₾ (განახლდება ქრაუდფანდინგის კამპანიის დასრულების შემდეგ)**
 
 ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/u/1/folders/1leNbNpsL8hj3O1xEcSu_twUhXZqa1RfR) 451.4 ₾
 
