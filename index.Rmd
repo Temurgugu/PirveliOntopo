@@ -15,6 +15,7 @@ library(ggplot2)
 library(tidyverse)
 library(hrbrthemes)
 library(viridis)
+library(googlesheets4)
 library(ggwordcloud)
 library(DT)
 
@@ -75,6 +76,10 @@ tg <- ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
 
 
 statement <- read.csv("/Users/macbook/Documents/R/ggplot/OnLaibrary/data/statement.csv")
+
+
+
+x <- read_sheet('https://docs.google.com/spreadsheets/d/1mInCEBXvblTp5iu4A5d-jbuupjG1TUfH1_gOL-pqw2U/edit#gid=0')
 
 
 statement_income <- statement %>%
