@@ -78,17 +78,23 @@ tg <- ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
 statement <- read.csv("/Users/macbook/Documents/R/ggplot/OnLaibrary/data/statement.csv")
 
 
-
-x <- read_sheet('https://docs.google.com/spreadsheets/d/1mInCEBXvblTp5iu4A5d-jbuupjG1TUfH1_gOL-pqw2U/edit#gid=0')
-
-
-statement_income <- statement %>%
-             dplyr::filter(aim == "ჩარიცხვა") %>%
-             dplyr::select(c("name")) %>%
-  dplyr::distinct()
+orbelianimeti <- read.csv("/Users/macbook/Documents/R/ggplot/OnLaibrary/data/orbelianimeti.csv")
 
 
-Table <- datatable(statement_income,  colnames = c("N", "სახელი, გვარი"),
+
+
+
+statement_income <- statement |>
+             dplyr::filter(aim == "ჩარიცხვა") |>
+             dplyr::select(c("name")) 
+
+  
+list <- full_join(orbelianimeti, statement_income,  by="name") |>
+    dplyr::distinct()
+
+
+
+Table <- datatable(list,  colnames = c("N", "სახელი, გვარი"),
           clas='hover cell-border stripe dt-head-right',
           options = list(searching=FALSE, pageLength=10, dom='Bfrtip'))
 Table
