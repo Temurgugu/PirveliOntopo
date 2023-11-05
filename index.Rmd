@@ -90,7 +90,7 @@ statement_income <- statement |>
 
   
 list <- full_join(orbelianimeti, statement_income,  by="name") |>
-    dplyr::distinct()
+    dplyr::distinct(name) 
 
 
 
