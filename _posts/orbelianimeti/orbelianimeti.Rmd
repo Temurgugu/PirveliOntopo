@@ -7,7 +7,7 @@ description: |
 author: ონტოფოს ბიბლიოთეკის სამზრუნველო
 
 date: 07-09-2022
-preview: https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/384129623_218509897908628_3744300223929606263_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=49d041&_nc_ohc=pWO-pJ1ODOkAX-1iJj_&_nc_ht=scontent.ftbs5-3.fna&oh=00_AfBGMBoGS8uh9fyBCo3oS2TJPm1GznhMfOgcqSajO4KXxw&oe=65271FA3
+preview: https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/384129623_218509897908628_3744300223929606263_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oCaqZWpRKkQAX9qEFdQ&_nc_ht=scontent.ftbs5-3.fna&oh=00_AfDgHonc-kGvOZRvoXRRAv7hGBY6TU_W0loUCwM3GmDHJw&oe=654EACA3
 
 output:
   distill::distill_article:
@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![© თათია ნადარეიშვილი](https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/384129623_218509897908628_3744300223929606263_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=49d041&_nc_ohc=pWO-pJ1ODOkAX-1iJj_&_nc_ht=scontent.ftbs5-3.fna&oh=00_AfBGMBoGS8uh9fyBCo3oS2TJPm1GznhMfOgcqSajO4KXxw&oe=65271FA3){width=70%}
+![© თათია ნადარეიშვილი](https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/384129623_218509897908628_3744300223929606263_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=oCaqZWpRKkQAX9qEFdQ&_nc_ht=scontent.ftbs5-3.fna&oh=00_AfDgHonc-kGvOZRvoXRRAv7hGBY6TU_W0loUCwM3GmDHJw&oe=654EACA3){width=70%}
 
 ორბელიანი მეტის იდეების კონკურსის გამარჯვებული გახდა ონტოფოს ბიბლიოთეკის სამზრუნველოს წარდგენილი პროექტი "ონტოფოს ბიბლიოთეკის მულტიფუნქციური სივრცე". 
 

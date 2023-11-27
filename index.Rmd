@@ -41,7 +41,7 @@ library(DT)
 
 გადადით [ორბელიანი მეტის პლატფორმაზე](https://orbelianimeti.ge/product/%e1%83%a8%e1%83%94%e1%83%95%e1%83%a5%e1%83%9b%e1%83%9c%e1%83%90%e1%83%97-%e1%83%9d%e1%83%9c%e1%83%a2%e1%83%9d%e1%83%a4%e1%83%9d%e1%83%a1-%e1%83%91%e1%83%98%e1%83%91%e1%83%9a%e1%83%98%e1%83%9d%e1%83%97/?fbclid=IwAR1ypq3I4hlxdut-GbLRSdp_cG8XmXh2TIoIRgGivqLnjrbfNDy9sdWyXDM) და მხარი დაუჭირე ჩვენ ინიციატივას!
 
-<iframe src="https://orbelianimeti.ge/product/%e1%83%a8%e1%83%94%e1%83%95%e1%83%a5%e1%83%9b%e1%83%9c%e1%83%90%e1%83%97-%e1%83%9d%e1%83%9c%e1%83%a2%e1%83%9d%e1%83%a4%e1%83%9d%e1%83%a1-%e1%83%91%e1%83%98%e1%83%91%e1%83%9a%e1%83%98%e1%83%9d%e1%83%97/?fbclid=IwAR1ypq3I4hlxdut-GbLRSdp_cG8XmXh2TIoIRgGivqLnjrbfNDy9sdWyXDM" width="100%" height="500"></iframe>
+<iframe src="https://orbelianimeti.ge/en/product/multifunctional-space-in-ontofo-library/" width="100%" height="500"></iframe>
 
 
 
