@@ -8,7 +8,7 @@ navbar:
     image: images/logo.png
     href: https://ontopo.netlify.app/
   right:
-    - text: "მხარდაჭერა"
+    - text: "ჩვენ შესახებ"
       href: index.html
     - text: "გუნდი"
       href: team.html
