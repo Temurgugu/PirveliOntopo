@@ -1,0 +1,36 @@
+[
+  {
+    "path": "friends/Sulakauri/",
+    "title": "სულაკაურის გამომცემლობა",
+    "description": "\"სულაკაურის გამომცემლობასთან ვმეგობრობთ 2023 წლიდან\"",
+    "author": [
+      {
+        "name": "ონტოფოს ბიბლიოთეკის სამზრუნველო",
+        "url": {}
+      }
+    ],
+    "date": "2024-04-09",
+    "categories": [],
+    "contents": "\n\nContents\n2023 წელს\n\n\nსულაკაურის გამომცემლობა მხარს უჭერს ონტოფოს ბიბლიოთეკის წიგნადი ფონდის განახლების პროცესს.\n2023 წელს\nონტოფოს ბიბლიოთეკას გადაეცა 150 წიგნი\n\n\n\n",
+    "preview": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5jxJGrLlzw6d5JJws-7DCT6DkjBtxNjQjm78jXOzdiA&s",
+    "last_modified": "2024-04-09T21:10:43+04:00",
+    "input_file": "Sulakauri.knit.md"
+  },
+  {
+    "path": "friends/Gogora/",
+    "title": "გოგორა",
+    "description": "\"გოგორასთან ვმეგობრობთ 2023 წლიდან\"",
+    "author": [
+      {
+        "name": "ონტოფოს ბიბლიოთეკის სამზრუნველო",
+        "url": {}
+      }
+    ],
+    "date": "2024-04-08",
+    "categories": [],
+    "contents": "\n\nContents\n2023 წელს\n\n\nგოგორა მხარს უჭერს ონტოფოს ბიბლიოთეკის საბავშო სივრცის განვითარებას.\n2023 წელს\nონტოფოს ბიბლიოთეკას გადასცა ინვენტარი\n\n\n\n",
+    "preview": "https://gogoratoys.com/cdn/shop/files/png.png?v=1672567349",
+    "last_modified": "2024-04-09T21:22:23+04:00",
+    "input_file": "Gogora.knit.md"
+  }
+]

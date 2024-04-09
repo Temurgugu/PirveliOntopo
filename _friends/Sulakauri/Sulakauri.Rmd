@@ -1,0 +1,39 @@
+---
+title: "სულაკაურის გამომცემლობა"
+description: | 
+  "სულაკაურის გამომცემლობასთან ვმეგობრობთ 2023 წლიდან"
+
+  
+author: ონტოფოს ბიბლიოთეკის სამზრუნველო
+
+date: 04-09-2024
+preview: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5jxJGrLlzw6d5JJws-7DCT6DkjBtxNjQjm78jXOzdiA&s
+
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+  
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5jxJGrLlzw6d5JJws-7DCT6DkjBtxNjQjm78jXOzdiA&s){width=30%}
+
+
+[სულაკაურის გამომცემლობა](sulakauri.ge) მხარს უჭერს ონტოფოს ბიბლიოთეკის წიგნადი ფონდის განახლების პროცესს.
+
+## 2023 წელს 
+
+ონტოფოს ბიბლიოთეკას გადაეცა 150 წიგნი
+
+
