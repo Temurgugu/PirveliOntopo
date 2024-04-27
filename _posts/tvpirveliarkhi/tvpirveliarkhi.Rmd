@@ -1,0 +1,33 @@
+---
+title: "პირველი არხის დილის გადაცემამ სამზრუნველოს წევრებს უმასპინძლა"
+description: | 
+  პირველი არხი-ს დილის გადაცემაში ახალი დღე ვისაუბრეთ ონტოფოს ბიბლიოთეკის სამზრუნველოს ინიციატივის ისტორიისა და სამომავლო გეგმების შესახებ.
+
+  
+author: ონტოფოს ბიბლიოთეკის სამზრუნველო
+
+date: 04-12-2024
+preview: Screen.PNG
+
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+  
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/5SUqdWRKnTY?si=-CjqwZEyLHttE-1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
