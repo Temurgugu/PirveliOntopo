@@ -1,0 +1,43 @@
+---
+title: "თეგეტა ჰოლდინგი"
+description: | 
+  "თეგეტა ჰოლდინგთან ვმეგობრობთ 2024 წლიდან"
+
+  
+author: ონტოფოს ბიბლიოთეკის სამზრუნველო
+
+date: 04-09-2024
+preview: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq8cUcvjutlL5eVL3lGAg7zmreC43sBxOPLGUMT9a9bw&s
+
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+  
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq8cUcvjutlL5eVL3lGAg7zmreC43sBxOPLGUMT9a9bw&s){width=30%}
+
+
+[თეგეტა ჰოლდინგი](https://www.tegetamotors.ge/) მხარს უჭერს ონტოფოს ბიბლიოთეკის ციფრული ტექნოლოგიებით აღჭურვასა და წიგნადი ფონდის განახლებას.
+
+## 2024 წელი
+
+ონტოფოს ბიბლიოთეკას გადაეცა:
+
+📕 xxx წიგნი
+
+📺 [სმარტ ბორდი](https://allmarket.ge/product/104179/interaqtiuli-ekrani_-smart-ekrani-allscreen-dw65hlt982-lt-series_-65%E2%80%9D_-4k-uhd_-android-11_-ram-4gb_-32gb_-smart-board_-b)
+
+
