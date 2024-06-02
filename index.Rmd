@@ -94,7 +94,8 @@ orbelianimeti <- read.csv("/Users/macbook/Documents/R/ggplot/OnLaibrary/data/orb
 
 
 statement_income <- statement |>
-             dplyr::filter(aim == "ჩარიცხვა") |>
+             dplyr::filter(aim == "ჩარიცხვა", name != "ორბელიანი მეტი crowdfunding", 
+                                              name != "ორბელიანი მეტი გრანტი") |>
              dplyr::select(c("name")) 
 
   
