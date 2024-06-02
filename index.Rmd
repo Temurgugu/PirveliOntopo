@@ -101,14 +101,14 @@ statement_income <- statement |>
   
 list <- full_join(orbelianimeti, statement_income,  by="name") |>
     dplyr::distinct(name) |>
-    arrange(desc(name))
+    arrange((name))
   
 
 
 
 Table <- datatable(list,  colnames = c("N", "სახელი, გვარი"),
           clas='hover cell-border stripe dt-head-right',
-          options = list(searching=FALSE, pageLength=10, dom='Bfrtip'))
+          options = list(searching=FALSE, pageLength=15, dom='Bfrtip'))
 Table
 ```
 
