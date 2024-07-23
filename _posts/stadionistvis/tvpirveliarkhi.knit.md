@@ -18,23 +18,7 @@ output:
 ---
 
 
-```{r setup, include=FALSE}
 
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-library(ggplot2)
-library(tidyverse)
-library(hrbrthemes)
-library(viridis)
-library(googlesheets4)
-library(ggwordcloud)
-library(DT)
-
-
-```
 
 ![canva_ai](stadioni.png)
 განათლებასთან ერთად ჯანსაღი ცხოვრების წახალისებაც მნიშვნელოვანია, შესაბამისად გადავწყვიტეთ მხარ დავუჭიროთ ონტოფოს სტატდიონის საფეხბურთო სეზონისთვის მომზადებას.
@@ -44,32 +28,15 @@ library(DT)
 
 იდეის ფინანსური მხარდამჭერები 👇
 
-```{r echo = FALSE, message = FALSE, warning=FALSE, fig.height = 3.4, fig.width = 8, dev.args=list(bg='transparent', pointsize=10)}
+<div class="layout-chunk" data-layout="l-body">
 
-
-
-statement <- read.csv("/Users/macbook/Documents/R/ggplot/OnLaibrary/data/statement.csv")
-
-
-orbelianimeti <- read.csv("/Users/macbook/Documents/R/ggplot/OnLaibrary/data/orbelianimeti.csv")
-
-
-
-
-
-statement_income <- statement |>
-             dplyr::filter(source == "სტადიონისთვის") |>
-    dplyr::distinct(name) |>
-    arrange((name))
-  
-
-
-
-Table <- datatable(statement_income,  colnames = c("N", "სახელი, გვარი"),
-          clas='hover cell-border stripe dt-head-right',
-          options = list(searching=FALSE, pageLength=15, dom='Bfrtip'))
-Table
+```{=html}
+<div class="datatables html-widget html-fill-item" id="htmlwidget-2d0aa2e1da12975d08a6" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-2d0aa2e1da12975d08a6">{"x":{"filter":"none","vertical":false,"data":[["1","2","3","4","5","6"],["თამარ ნადარეიშვილი","თემურ გუგუშვილი","ლალი ჩხეტია","ლელა ნადარეიშვილი","ნათია კეკენაძე","სალომე გოჩოლეიშვილი"]],"container":"<table class=\"hover cell-border stripe dt-head-right\">\n  <thead>\n    <tr>\n      <th>N<\/th>\n      <th>სახელი, გვარი<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"searching":false,"pageLength":15,"dom":"Bfrtip","columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[10,15,25,50,100]}},"evals":[],"jsHooks":[]}</script>
 ```
+
+</div>
+
 
 
 სოფლის სტადიონის განახლების პროცესში ონტოფელები აქტიურად არიან ჩართულები. ეს გახდა ჩვენი მოტივაცია ჩვენი (თქვენთან ერთად)  წვლილი შეგვეტანა ამ პროცესში.
@@ -79,3 +46,5 @@ Table
 
 
 
+```{.r .distill-force-highlighting-css}
+```
