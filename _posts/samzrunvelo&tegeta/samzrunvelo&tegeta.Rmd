@@ -1,0 +1,42 @@
+---
+title: "სამზრუნველოსა და თეგეტას ერთობლივი ღონისძიება ბიბლიოთეკაში"
+description: | 
+  თეგეტა ჰოლდინგისა და სამზრუნველოს თანამშრომლობით ონტოფოს ბიბლიოთეკამ ღონისძიებას უმასპინძლა, რომელსაც დაესწრნენ თეგეტას წარმომადგენლები, ადგილობრივი სკოლის მასწავლებლები, მშობლები და მოსწავლეები.
+
+  
+
+  
+author: ონტოფოს ბიბლიოთეკის სამზრუნველო
+
+date: 04-12-2024
+preview: Screen.PNG
+
+output:
+  distill::distill_article:
+    self_contained: false
+    toc: true
+    toc_depth: 2
+  
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+თეგეტა ჰოლდინგისა და სამზრუნველოს თანამშრომლობით ონტოფოს ბიბლიოთეკამ ღონისძიებას უმასპინძლა, რომელსაც დაესწრნენ თეგეტას წარმომადგენლები, ადგილობრივი სკოლის მასწავლებლები, მშობლები და მოსწავლეები.
+
+ღონისძიება გააშუქა რამდენიმე მედია საშუალებამ.
+
+<iframe width="560" height="315" src="https://netgazeti.ge/news/721290/?fbclid=IwZXh0bgNhZW0CMTAAAR2lVXpxTdC6rAvgMLLtSZF28uZ73SA8H7tQORXfJxsTjasocQH59Nsl1H4_aem_ASulom8iwxJI0kiuDzNOCTWTxaCb4ZJF0pfb-uCZ7FY-u9y8clfNAnfUDLy-OEoJ0AEX-XdCiL6Hi8-Bjs_qOJPU"   ></iframe>
+
+
+
+<iframe width="560" height="315" src="https://fb.watch/rZRe1D61dH/?mibextid=rS40aB7S9Ucbxw6v"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
