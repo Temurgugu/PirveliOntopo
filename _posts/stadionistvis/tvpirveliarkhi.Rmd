@@ -6,7 +6,7 @@ description: |
   
 author: ონტოფოს ბიბლიოთეკის სამზრუნველო
 
-date: 04-12-2024
+date: 07-23-2024
 preview: stadioni.png
 
 output:
