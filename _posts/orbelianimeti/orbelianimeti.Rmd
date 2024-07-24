@@ -7,7 +7,7 @@ description: |
 author: ონტოფოს ბიბლიოთეკის სამზრუნველო
 
 date: 07-09-2022
-preview: https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/384129623_218509897908628_3744300223929606263_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dtP0xhYHMXoAX89uU0x&_nc_ht=scontent.ftbs5-3.fna&oh=00_AfAgEDVEFZftBPZm04PgKPtN_Y3_Zb9r9K90e7lreSZjbw&oe=65ECE0A3
+preview: https://live.staticflickr.com/65535/53879139565_2dc381debc_k.jpg
 
 output:
   distill::distill_article:
@@ -26,7 +26,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![© თათია ნადარეიშვილი](https://scontent.ftbs5-3.fna.fbcdn.net/v/t39.30808-6/384129623_218509897908628_3744300223929606263_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=dtP0xhYHMXoAX89uU0x&_nc_ht=scontent.ftbs5-3.fna&oh=00_AfAgEDVEFZftBPZm04PgKPtN_Y3_Zb9r9K90e7lreSZjbw&oe=65ECE0A3){width=70%}
+
+
+![© თათია ნადარეიშვილი](https://live.staticflickr.com/65535/53879139565_2dc381debc_k.jpg){width=100%}
 
 ორბელიანი მეტის იდეების კონკურსის გამარჯვებული გახდა ონტოფოს ბიბლიოთეკის სამზრუნველოს წარდგენილი პროექტი "ონტოფოს ბიბლიოთეკის მულტიფუნქციური სივრცე". 
 
