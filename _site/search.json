@@ -1,6 +1,13 @@
 {
   "articles": [
     {
+      "path": "friends.html",
+      "title": "მეგობრები",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2025-01-12T13:15:15+04:00"
+    },
+    {
       "path": "index.html",
       "title": "ონტოფოს ბიბლიოთეკის სამზრუნველო",
       "author": [],
