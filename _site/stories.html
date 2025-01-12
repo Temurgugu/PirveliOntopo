@@ -2224,9 +2224,30 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /* Add any additional CSS rules below                      */
 
   a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  html a[href] {
     color: blue;
     text-decoration: underline;
-  }</style>
+  }
+
+  html a[href]:hover {
+    color: darkblue;
+  }
+
+  .distill-site-header a {
+    color: var(--text-color) !important;
+    text-decoration: none !important;
+  }
+
+  .distill-site-footer a {
+    color: var(--text-color) !important;
+    text-decoration: none !important;
+  }
+
+  </style>
   <style type="text/css">
   /* base style */
 

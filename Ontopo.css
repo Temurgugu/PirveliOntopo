@@ -74,6 +74,27 @@ d-appendix {
 /* Add any additional CSS rules below                      */
 
 a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+html a[href] {
   color: blue;
   text-decoration: underline;
 }
+
+html a[href]:hover {
+  color: darkblue;
+}
+
+.distill-site-header a {
+  color: var(--text-color) !important;
+  text-decoration: none !important;
+}
+
+.distill-site-footer a {
+  color: var(--text-color) !important;
+  text-decoration: none !important;
+}
+
+
