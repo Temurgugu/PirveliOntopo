@@ -15,7 +15,9 @@ navbar:
     - text: "სიახლეები"
       href: stories.html
     - text: "მეგობრები"
-      href: friends.html  
+      href: friends.html
+    - text: "AI რესურსები"
+      href: ai.html      
 
 output: distill::distill_article
 theme: "ontopo.css"

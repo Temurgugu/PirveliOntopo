@@ -1,0 +1,25 @@
+---
+title: "Protected Page"
+output: distill::distill_article
+---
+
+<script>
+  // Prompt for password
+  let password = prompt("Enter the password:");
+
+  // Hide content by default
+  document.body.style.display = "none";
+
+  // Check the password
+  if (password === "ai_tools") {
+    document.body.style.display = "block";
+  } else {
+    alert("Wrong password!");
+    window.location.href = "/";
+  }
+</script>
+
+<div>
+  # Content of the page
+  This page is password protected. You can only see this if you entered the correct password.
+</div>
