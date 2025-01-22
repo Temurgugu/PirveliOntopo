@@ -19,7 +19,20 @@ output: distill::distill_article
   }
 </script>
 
+# Content of the page
+
+
 <div>
   # Content of the page
   This page is password protected. You can only see this if you entered the correct password.
+</div>
+
+
+## Request a Password
+  If you don’t have a password, click the link below to send us an email request:
+
+  <a href="mailto:your-email@example.com?subject=Password%20Request&body=Hello,%0A%0AI would like to request access to the protected page.%0A%0AThank you!" 
+     target="_blank" style="font-size: 1.2em; color: blue;">
+     Request Password via Email
+  </a>
 </div>
