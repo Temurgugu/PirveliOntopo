@@ -4,35 +4,31 @@ output: distill::distill_article
 ---
 
 <script>
+  // Hide the main content by default
+  document.body.style.display = "none";
+
   // Prompt for password
   let password = prompt("Enter the password:");
 
-  // Hide content by default
-  document.body.style.display = "none";
-
   // Check the password
-  if (password === "ai_tools") {
-    document.body.style.display = "block";
+  if (password === "yourpassword") {
+    document.body.style.display = "block"; // Show content for correct password
   } else {
-    alert("Wrong password!");
-    window.location.href = "/";
+    // If the password is wrong, show a message and the request form link
+    document.body.innerHTML = `
+      <h1>Access Denied</h1>
+      <p>The password you entered is incorrect.</p>
+      <p>If you don’t have the password, you can request it by filling out the form below:</p>
+      <a href="https://forms.gle/your-google-form-link" 
+         target="_blank" style="font-size: 1.2em; color: blue;">
+         Request Password via Google Form
+      </a>
+    `;
+    document.body.style.display = "block"; // Show the new content
   }
 </script>
 
-# Content of the page
-
-
 <div>
-  # Content of the page
-  This page is password protected. You can only see this if you entered the correct password.
-</div>
-
-
-## Request a Password
-  If you don’t have a password, click the link below to send us an email request:
-
-  <a href="mailto:your-email@example.com?subject=Password%20Request&body=Hello,%0A%0AI would like to request access to the protected page.%0A%0AThank you!" 
-     target="_blank" style="font-size: 1.2em; color: blue;">
-     Request Password via Email
-  </a>
+  # Protected Content
+  Welcome to the protected page. This content is only visible to users with the correct password.
 </div>
