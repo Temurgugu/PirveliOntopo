@@ -1,5 +1,5 @@
 ---
-title: "Protected Page"
+title: "ხელოვნური ინტელექტის რესურსები"
 output: distill::distill_article
 ---
 

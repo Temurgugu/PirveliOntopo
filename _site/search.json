@@ -2,10 +2,10 @@
   "articles": [
     {
       "path": "ai.html",
-      "title": "Protected Page",
+      "title": "ხელოვნური ინტელექტის რესურსები",
       "author": [],
       "contents": "\n\n# Content of the page\nThis page is password protected. You can only see this if you entered the correct password.\n\n\n\n\n",
-      "last_modified": "2025-01-22T11:55:29+04:00"
+      "last_modified": "2025-01-22T11:59:31+04:00"
     },
     {
       "path": "friends.html",
