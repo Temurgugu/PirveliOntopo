@@ -35,3 +35,6 @@ output: distill::distill_article
 
 
 </div>
+
+
+<iframe width="1060" height="515" src="https://www.youtube.com/embed/er7x11Nbi3I?si=ul1jdlS514IGARwz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
