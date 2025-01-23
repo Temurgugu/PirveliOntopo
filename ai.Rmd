@@ -1,6 +1,9 @@
 ---
 title: "ხელოვნური ინტელექტის რესურსები"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
 ---
 
 <script>
@@ -28,6 +31,53 @@ output: distill::distill_article
 <div id="ai_tools" style="display: none;">
 </div>
 
+
+<style>
+/* Style for collapsible TOC items */
+.toc .collapsible {
+  cursor: pointer;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.toc .nested {
+  display: none;
+  padding-left: 15px;
+}
+
+.toc .collapsible.active + .nested {
+  display: block;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Find all list items in the TOC
+  const tocItems = document.querySelectorAll(".toc li");
+
+  // Loop through TOC items to find collapsible ones
+  tocItems.forEach((item) => {
+    const link = item.querySelector("a");
+    if (link && link.getAttribute("href").includes("#")) {
+      // Make the current TOC item collapsible
+      item.classList.add("collapsible");
+
+      // Find nested items and wrap them
+      const nested = item.querySelector("ul");
+      if (nested) {
+        nested.classList.add("nested");
+
+        // Add click event to toggle visibility
+        item.addEventListener("click", function (e) {
+          e.stopPropagation();
+          item.classList.toggle("active");
+        });
+      }
+    }
+  });
+});
+</script>
 
 ## Photomath
 
