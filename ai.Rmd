@@ -40,3 +40,22 @@ output: distill::distill_article
 
 აპლიკაციის გადმოსაწერი [ბმული](https://apps.apple.com/us/app/photomath/id919087726) - IOS
 
+
+## NotebookLM
+
+NotebookLM იყენებს ხელოვნურ ინტელექტს ინფორმაციის შეჯამებისთვის და ჩანაწერების. NotebookLM განსხვავებით სხვა ჩატბოტებისგან განსხვავებით იყენებს ინფორმაციას, რომელსაც თავად მივაწვდით: დოკუმენტი, ვებ-საიტი და ა.შ.
+
+
+[NotebookLM](https://notebooklm.google/) გამოყენებისთვის საჭიროა gmail-ს ანგარიში.
+
+შექმენი Gmail-ის ანგარიში - [ბმული](https://accounts.google.com/lifecycle/steps/signup/name?continue=https://mail.google.com/mail/&ddm=1&dsh=S-1389507543:1737635530355254&ec=GAlAFw&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&service=mail&TL=AO-GBTdTe3B2d3FsySq-Df_VgkXjmhzntkuExMdQS1epV6-MNGyn8s94vc4MSh9u).
+
+
+შექმენი ჩანაწერი 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0fQrhPEDrj4?si=YoWfgLIjEMclPpaf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+დაამატე pdf დოკუმენტი 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XNazCk4jBm8?si=mm2R1gFo6PD2zqjF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
