@@ -88,12 +88,15 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 
 
-## Photomath
+## Photomath 
 
-აპლიკაცია გამოიყენება მათემატიკური ამოცანების ამოხსნისთვის.
+### შესაძლებლობა - მათემატიკური ამოცანების ამოხსნა.
+
+ვიდეოინსტრუქცია 
 
 <iframe width="1060" height="515" src="https://www.youtube.com/embed/er7x11Nbi3I?si=ul1jdlS514IGARwz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+აპლიკაციის დაინსტალირება
 
 აპლიკაციის გადმოსაწერი [ბმული](https://play.google.com/store/apps/details?id=com.microblink.photomath&pli=1) ანდროიდისთვის
 
