@@ -87,16 +87,25 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 
+ხელოვნური ინტელექტის რესურსები გვერდი მოიცავს ხელოვნური ინტელექტის გამოყენებით შექმნილ აპლიკაციებს. ახსნილია მათი გამოყენების შესაძლებლობები, გაჯეტებში მათი ინსტალაციისა და გამოყენების ძირითადი პრინციპები. 
+
+## ვებგვერდის თარგმნა ინგლისური - ქართული
+
+
+### ვიდეოინსტრუქცია
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n_vHg5bi-T8?si=yIYCSvwmnxmihN3n" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Photomath 
 
-### შესაძლებლობა - მათემატიკური ამოცანების ამოხსნა.
+### შესაძლებლობა
+მათემატიკური ამოცანების ამოხსნა.
 
-ვიდეოინსტრუქცია 
+### ვიდეოინსტრუქცია 
 
 <iframe width="1060" height="515" src="https://www.youtube.com/embed/er7x11Nbi3I?si=ul1jdlS514IGARwz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-აპლიკაციის დაინსტალირება
+### აპლიკაციის დაინსტალირება
 
 აპლიკაციის გადმოსაწერი [ბმული](https://play.google.com/store/apps/details?id=com.microblink.photomath&pli=1) ანდროიდისთვის
 
@@ -105,19 +114,43 @@ document.addEventListener("DOMContentLoaded", function() {
 
 ## NotebookLM
 
-NotebookLM იყენებს ხელოვნურ ინტელექტს ინფორმაციის შეჯამებისთვის და ჩანაწერების. NotebookLM განსხვავებით სხვა ჩატბოტებისგან განსხვავებით იყენებს ინფორმაციას, რომელსაც თავად მივაწვდით: დოკუმენტი, ვებ-საიტი და ა.შ.
+### შესაძლებლობა
 
+NotebookLM იყენებს ხელოვნურ ინტელექტს ინფორმაციის შეჯამებისთვისა და ჩანაწერების მომზადებისთვის. სხვა ჩატბოტებისგან განსხვავებით მისთვის შესაძლებელია თქვენთვის სანდო რესურსების(დოკუმენტი, ვებ-საიტი და ა.შ.) მიწოდება. მას შეუძლია  ამ მიწოდებული ინფორმაციის შეჯამება და თქვენი ბრძანებების შესაბამისად დამუშავება. 
+
+### Gmail-ს ანგარიში.
 
 [NotebookLM](https://notebooklm.google/) გამოყენებისთვის საჭიროა gmail-ს ანგარიში.
 
 შექმენი Gmail-ის ანგარიში - [ბმული](https://accounts.google.com/lifecycle/steps/signup/name?continue=https://mail.google.com/mail/&ddm=1&dsh=S-1389507543:1737635530355254&ec=GAlAFw&flowEntry=SignUp&flowName=GlifWebSignIn&hl=en&service=mail&TL=AO-GBTdTe3B2d3FsySq-Df_VgkXjmhzntkuExMdQS1epV6-MNGyn8s94vc4MSh9u).
 
 
-შექმენი ჩანაწერი 
+### შექმენი ჩანაწერი 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0fQrhPEDrj4?si=YoWfgLIjEMclPpaf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-დაამატე pdf დოკუმენტი 
+### დაამატე pdf დოკუმენტი 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XNazCk4jBm8?si=mm2R1gFo6PD2zqjF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## ChatGPT & ChatGPTs
+
+
+[ChatGPT](https://chatgpt.com/)
+
+[ChatGPT](https://play.google.com/store/apps/details?id=com.openai.chatgpt&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1) - ანდროიდისთვის
+
+[ChatGPT](https://apps.apple.com/us/app/chatgpt/id6448311069) - IOS
+
+
+
+## Claude
+
+
+
+## Gemini
+
+
+
