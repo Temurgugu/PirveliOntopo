@@ -148,7 +148,13 @@ NotebookLM იყენებს ხელოვნურ ინტელექ�
 
 ## Claude
 
+### შესაძლებლობა
 
+ბრძანებების შესაბამისად ტექსტის შექმნა, მხარდაჭერა.
+
+### ვიდეოინსტრუქცია
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5FRNrADdUgY?si=Q-cqqHoPcDm0N8mY&amp;start=3189" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Gemini
 
