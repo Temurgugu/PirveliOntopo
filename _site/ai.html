@@ -107,7 +107,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["ხელოვნური ინტელექტის რესურსები"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["ხელოვნური ინტელექტის რესურსები"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_depth","includes"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"integer","attributes":{},"value":[2]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["after_body"]}},"value":[{"type":"character","attributes":{},"value":["custom-script.html"]}]}]}]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2460,93 +2460,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 <div class="d-article">
-<div class="d-contents d-contents-float">
-<nav class="l-text toc figcaption" id="TOC">
-<h3>Contents</h3>
-<ul>
-<li><a href="#ვებგვერდის-თარგმნა-ინგლისური---ქართული" id="toc-ვებგვერდის-თარგმნა-ინგლისური---ქართული">ვებგვერდის თარგმნა ინგლისური - ქართული</a></li>
-<li><a href="#photomath" id="toc-photomath">Photomath</a></li>
-<li><a href="#notebooklm" id="toc-notebooklm">NotebookLM</a></li>
-<li><a href="#chatgpt-chatgpts" id="toc-chatgpt-chatgpts">ChatGPT &amp; ChatGPTs</a></li>
-<li><a href="#claude" id="toc-claude">Claude</a></li>
-<li><a href="#gemini" id="toc-gemini">Gemini</a></li>
-<li><a href="#scratch" id="toc-scratch">Scratch</a></li>
-</ul>
-</nav>
-</div>
-<script>
-  // Prompt for the password
-  let password = prompt("Enter the password:");
-
-  // Check the password
-  if (password === "tools") {
-    // Show the main content for the correct password
-    document.querySelector("#ai_tools").style.display = "block";
-  } else {
-    // If the password is wrong, replace the page content
-    document.body.innerHTML = `
-      <h1>Access Denied</h1>
-      <p>The password you entered is incorrect.</p>
-      <p>If you don’t have the password, you can request it by filling out the form below:</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScNSvOziB91CPHvO9YuB2rvGGUo2rvG6TaD8OpYp2ezAXJ6Kg/viewform?usp=header" 
-         target="_blank" style="font-size: 1.2em; color: blue;">
-         Request Password via Google Form
-      </a>
-    `;
-  }
-</script>
 <div id="ai_tools" style="display: none;">
-<p>## Photomath</p>
-<p>აპლიკაცია გამოიყენება მათემატიკური ამოცანების ამოხსნისთვის.</p>
-<p><iframe width="1060" height="515" src="https://www.youtube.com/embed/er7x11Nbi3I?si=ul1jdlS514IGARwz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
-<p>აპლიკაციის გადმოსაწერი <a href="https://play.google.com/store/apps/details?id=com.microblink.photomath&amp;pli=1">ბმული</a> ანდროიდისთვის</p>
-<p>აპლიკაციის გადმოსაწერი <a href="https://apps.apple.com/us/app/photomath/id919087726">ბმული</a> - IOS</p>
-</div>
-<style>
-/* Style for collapsible TOC items */
-.toc .collapsible {
-  cursor: pointer;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.toc .nested {
-  display: none;
-  padding-left: 15px;
-}
-
-.toc .collapsible.active + .nested {
-  display: block;
-}
-</style>
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Find all list items in the TOC
-  const tocItems = document.querySelectorAll(".toc li");
-
-  // Loop through TOC items to find collapsible ones
-  tocItems.forEach((item) => {
-    const link = item.querySelector("a");
-    if (link && link.getAttribute("href").includes("#")) {
-      // Make the current TOC item collapsible
-      item.classList.add("collapsible");
-
-      // Find nested items and wrap them
-      const nested = item.querySelector("ul");
-      if (nested) {
-        nested.classList.add("nested");
-
-        // Add click event to toggle visibility
-        item.addEventListener("click", function (e) {
-          e.stopPropagation();
-          item.classList.toggle("active");
-        });
-      }
-    }
-  });
-});
-</script>
 <p>ხელოვნური ინტელექტის რესურსები გვერდი მოიცავს ხელოვნური ინტელექტის გამოყენებით შექმნილ აპლიკაციებს. ახსნილია მათი გამოყენების შესაძლებლობები, გაჯეტებში მათი ინსტალაციისა და გამოყენების ძირითადი პრინციპები.</p>
 <h2 id="ვებგვერდის-თარგმნა-ინგლისური---ქართული">ვებგვერდის თარგმნა ინგლისური - ქართული</h2>
 <h3 id="ვიდეოინსტრუქცია">ვიდეოინსტრუქცია</h3>
@@ -2584,8 +2498,9 @@ document.addEventListener("DOMContentLoaded", function() {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5FRNrADdUgY?si=Q-cqqHoPcDm0N8mY&amp;start=3189" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
 <h2 id="gemini">Gemini</h2>
-<h2 id="scratch">Scratch</h2>
+<h2 id="section"></h2>
 <p><em>ხელოვნური ინტელექტის რესურსების ვებგვერდის შექმნასა და განახლებაში მონაწილეობენ</em></p>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2595,6 +2510,39 @@ document.addEventListener("DOMContentLoaded", function() {
 </div>
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Test</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let password = prompt("Enter the password:");
+
+      if (password === "tools") {
+        document.querySelector("#ai_tools").style.display = "block";
+      } else {
+        document.body.innerHTML = `
+          <h1>Access Denied</h1>
+          <p>The password you entered is incorrect.</p>
+          <p>If you don’t have the password, you can request it by filling out the form below:</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScNSvOziB91CPHvO9YuB2rvGGUo2rvG6TaD8OpYp2ezAXJ6Kg/viewform?usp=header" 
+             target="_blank" style="font-size: 1.2em; color: blue;">
+             Request Password via Google Form
+          </a>
+        `;
+      }
+    });
+  </script>
+</head>
+<body>
+  <div id="ai_tools" style="display: none;">
+    <h2>Photomath</h2>
+    <p>Welcome to AI tools section.</p>
+  </div>
+</body>
+</html>
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->

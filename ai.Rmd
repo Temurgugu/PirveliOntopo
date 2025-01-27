@@ -4,88 +4,11 @@ output:
   distill::distill_article:
     toc: true
     toc_depth: 2
+    includes:
+      after_body: "custom-script.html"
 ---
 
-<script>
-  // Prompt for the password
-  let password = prompt("Enter the password:");
-
-  // Check the password
-  if (password === "tools") {
-    // Show the main content for the correct password
-    document.querySelector("#ai_tools").style.display = "block";
-  } else {
-    // If the password is wrong, replace the page content
-    document.body.innerHTML = `
-      <h1>Access Denied</h1>
-      <p>The password you entered is incorrect.</p>
-      <p>If you don’t have the password, you can request it by filling out the form below:</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLScNSvOziB91CPHvO9YuB2rvGGUo2rvG6TaD8OpYp2ezAXJ6Kg/viewform?usp=header" 
-         target="_blank" style="font-size: 1.2em; color: blue;">
-         Request Password via Google Form
-      </a>
-    `;
-  }
-</script>
-
 <div id="ai_tools" style="display: none;">
-  ## Photomath
-
-  აპლიკაცია გამოიყენება მათემატიკური ამოცანების ამოხსნისთვის.
-
-  <iframe width="1060" height="515" src="https://www.youtube.com/embed/er7x11Nbi3I?si=ul1jdlS514IGARwz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-  აპლიკაციის გადმოსაწერი [ბმული](https://play.google.com/store/apps/details?id=com.microblink.photomath&pli=1) ანდროიდისთვის
-
-  აპლიკაციის გადმოსაწერი [ბმული](https://apps.apple.com/us/app/photomath/id919087726) - IOS
-</div>
-
-<style>
-/* Style for collapsible TOC items */
-.toc .collapsible {
-  cursor: pointer;
-  font-weight: bold;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.toc .nested {
-  display: none;
-  padding-left: 15px;
-}
-
-.toc .collapsible.active + .nested {
-  display: block;
-}
-</style>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  // Find all list items in the TOC
-  const tocItems = document.querySelectorAll(".toc li");
-
-  // Loop through TOC items to find collapsible ones
-  tocItems.forEach((item) => {
-    const link = item.querySelector("a");
-    if (link && link.getAttribute("href").includes("#")) {
-      // Make the current TOC item collapsible
-      item.classList.add("collapsible");
-
-      // Find nested items and wrap them
-      const nested = item.querySelector("ul");
-      if (nested) {
-        nested.classList.add("nested");
-
-        // Add click event to toggle visibility
-        item.addEventListener("click", function (e) {
-          e.stopPropagation();
-          item.classList.toggle("active");
-        });
-      }
-    }
-  });
-});
-</script>
 
 ხელოვნური ინტელექტის რესურსები გვერდი მოიცავს ხელოვნური ინტელექტის გამოყენებით შექმნილ აპლიკაციებს. ახსნილია მათი გამოყენების შესაძლებლობები, გაჯეტებში მათი ინსტალაციისა და გამოყენების ძირითადი პრინციპები. 
 
@@ -159,7 +82,10 @@ NotebookLM იყენებს ხელოვნურ ინტელექ�
 ## Gemini
 
 
-## Scratch
+## 
 
 
 *ხელოვნური ინტელექტის რესურსების ვებგვერდის შექმნასა და განახლებაში მონაწილეობენ*
+
+
+</div>

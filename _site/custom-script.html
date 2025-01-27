@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Test</title>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      let password = prompt("Enter the password:");
+
+      if (password === "tools") {
+        document.querySelector("#ai_tools").style.display = "block";
+      } else {
+        document.body.innerHTML = `
+          <h1>Access Denied</h1>
+          <p>The password you entered is incorrect.</p>
+          <p>If you don’t have the password, you can request it by filling out the form below:</p>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScNSvOziB91CPHvO9YuB2rvGGUo2rvG6TaD8OpYp2ezAXJ6Kg/viewform?usp=header" 
+             target="_blank" style="font-size: 1.2em; color: blue;">
+             Request Password via Google Form
+          </a>
+        `;
+      }
+    });
+  </script>
+</head>
+<body>
+  <div id="ai_tools" style="display: none;">
+    <h2>Photomath</h2>
+    <p>Welcome to AI tools section.</p>
+  </div>
+</body>
+</html>
