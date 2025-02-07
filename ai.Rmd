@@ -82,10 +82,19 @@ NotebookLM იყენებს ხელოვნურ ინტელექ�
 ## Gemini
 
 
-## 
+## Scratch
+
+
+## ხელოვნური ინტელექტის განხილვა 
+
+### ხელოვნური ინტელექტის გამოყენება განათლებაში
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AVqwFVq9t70?si=bO7bCEYy6S7WldH3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 *ხელოვნური ინტელექტის რესურსების ვებგვერდის შექმნასა და განახლებაში მონაწილეობენ*
+
+
 
 
 </div>
