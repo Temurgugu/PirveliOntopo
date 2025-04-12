@@ -16,9 +16,9 @@ library(tidyverse)
 library(hrbrthemes)
 library(viridis)
 library(googlesheets4)
-library(ggwordcloud)
 library(DT)
-
+library(gt)
+library(gtExtras)
 
 ```
 
@@ -94,7 +94,7 @@ tg <- ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
 statement <- read.csv("/Users/mac/Documents/digital/R/ggplot/OnLaibrary/data/statement.csv")
 
 
-orbelianimeti <- read.csv("/Users/mac/Documents/digital/R/ggplot/OnLaibrary/data/statement.csv")
+orbelianimeti <- read.csv("/Users/mac/Documents/digital/R/ggplot/OnLaibrary/data/orbelianimeti.csv")
 
 
 
@@ -106,33 +106,61 @@ statement_income <- statement |>
              dplyr::select(c("name")) 
 
   
-list <- full_join(orbelianimeti, statement_income,  by="name") |>
+data <- full_join(orbelianimeti, statement_income, by="name") |>
     dplyr::distinct(name) |>
-    arrange((name))
+    arrange(name) |>
+    mutate(N = row_number()) |>
+    select(N, name)
   
 
 
 
-Table <- datatable(list,  colnames = c("N", "სახელი, გვარი"),
-          clas='hover cell-border stripe dt-head-right',
-          options = list(searching=FALSE, pageLength=15, dom='Bfrtip'))
+Table <- data |>
+  gt() |>
+  cols_label(N = "N", name = "სახელი, გვარი") |> 
+  cols_width(
+    N ~ px(100),        # Fixed width for N
+    name ~ px(600)     # Percentage-based width for name
+  ) |> 
+  tab_options(
+    table.width = px(700),
+    table.border.top.style = "hidden",
+    row.striping.include_table_body = TRUE
+  ) |> 
+  tab_style(
+    style = cell_text(align = "right"),
+    locations = cells_column_labels()
+  ) |>
+  opt_interactive(
+    use_sorting = TRUE,
+    page_size_default = 16,
+    use_pagination = TRUE,
+    use_filters = TRUE     # Optional: Enable column filters for more advanced filtering
+  )|>
+  tab_source_note(
+    source_note = "განახლების თარიღი: 12.04.2025"
+  ) |>
+  tab_style(
+    style = cell_text(align = "right"),
+    locations = cells_source_notes()
+  )
+
 Table
+
 ```
 
+**ფინანსური ანგარიში**
 
 <div class="warning" style='background-color:#60a2a8; color: #ebf4f5; border-left: solid #06707a 4px; border-right: solid #06707a 4px; border-radius: 4px; padding:0.7em;'>
 <span>
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
+**სულ შეგროვილია 16,375.00 ₾ (გრანტი + ქრაუდფანდინგი)**
 
+ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/folders/1R-csJtKf4rldJbasJLNUo2wIwzQEZxyy?usp=sharing) 15,622.62 ₾
 
-
-**სულ შეგროვილია 16,295.00 ₾ (გრანტი + ქრაუდფანდინგი)**
-
-ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/folders/1R-csJtKf4rldJbasJLNUo2wIwzQEZxyy?usp=sharing) 15,526.62 ₾
-
-- პერიოდული გამოცემები 406.20 ₾ 
+- პერიოდული გამოცემები 562.20 ₾ 
 
 - წიგნები 343.08 ₾
 
@@ -148,4 +176,4 @@ Table
 
 </p></span>
 </div>
-*განახლების თარიღი: 10.01.2025*
+
