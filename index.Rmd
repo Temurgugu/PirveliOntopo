@@ -137,9 +137,6 @@ Table <- data |>
     use_pagination = TRUE,
     use_filters = TRUE     # Optional: Enable column filters for more advanced filtering
   )|>
-  tab_source_note(
-    source_note = "განახლების თარიღი: 12.04.2025"
-  ) |>
   tab_style(
     style = cell_text(align = "right"),
     locations = cells_source_notes()
@@ -149,7 +146,6 @@ Table
 
 ```
 
-**ფინანსური ანგარიში**
 
 <div class="warning" style='background-color:#60a2a8; color: #ebf4f5; border-left: solid #06707a 4px; border-right: solid #06707a 4px; border-radius: 4px; padding:0.7em;'>
 <span>
@@ -176,4 +172,4 @@ Table
 
 </p></span>
 </div>
-
+*განახლების თარიღი: 12.04.2025*
