@@ -91,10 +91,10 @@ tg <- ggplot(df, aes(x=x, y=gel, fill = status, color = "#7d9998")) +
 
 
 
-statement <- read.csv("/Users/macbook/Documents/R/ggplot/OnLaibrary/data/statement.csv")
+statement <- read.csv("/Users/mac/Documents/digital/R/ggplot/OnLaibrary/data/statement.csv")
 
 
-orbelianimeti <- read.csv("/Users/macbook/Documents/R/ggplot/OnLaibrary/data/orbelianimeti.csv")
+orbelianimeti <- read.csv("/Users/mac/Documents/digital/R/ggplot/OnLaibrary/data/statement.csv")
 
 
 
@@ -132,7 +132,7 @@ Table
 
 ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/folders/1R-csJtKf4rldJbasJLNUo2wIwzQEZxyy?usp=sharing) 15,526.62 ₾
 
-- პერიოდული გამოცემები 466.20 ₾ 
+- პერიოდული გამოცემები 406.20 ₾ 
 
 - წიგნები 343.08 ₾
 
