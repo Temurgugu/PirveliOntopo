@@ -7,7 +7,7 @@ description: |
 author: ონტოფოს ბიბლიოთეკის სამზრუნველო
 
 date: 04-08-2024
-preview: https://gogoratoys.com/cdn/shop/files/png.png?v=1672567349
+preview: https://i.pinimg.com/280x280_RS/f6/36/09/f636091aff85ca1d71f91ce5d8426d3a.jpg
 
 output:
   distill::distill_article:
@@ -27,7 +27,7 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 
-![](https://gogoratoys.com/cdn/shop/files/png.png?v=1672567349){width=30%}
+![](https://i.pinimg.com/280x280_RS/f6/36/09/f636091aff85ca1d71f91ce5d8426d3a.jpg){width=30%}
 
 
 [გოგორა](gogoratoys.ge) მხარს უჭერს ონტოფოს ბიბლიოთეკის საბავშო სივრცის განვითარებას.

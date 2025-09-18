@@ -16,7 +16,6 @@ library(tidyverse)
 library(hrbrthemes)
 library(viridis)
 library(googlesheets4)
-library(DT)
 library(gt)
 library(gtExtras)
 
@@ -37,7 +36,6 @@ library(gtExtras)
 <aside>
 *წიგნებისა და სხვა რესურსების შერჩევა სკოლასთან და ბაღთან კონსულტაციით ხდება*
 </aside> 
-
 
 ბიბლიოთეკის განვითარებაზე ზრუნვა გრძელდება. წიგნადი ფონდ და სხვა რესურსები პერმანენტულად განახლდება. იგეგმება სამაგიდო თამაშების პოპულარიზაცია, ელექტრონული კატალოგის შექმნა და ბიბლიოთეკის ციფრული ტექნოლოგიებით აღჭურვა.
 
@@ -152,9 +150,9 @@ Table
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
-**სულ შეგროვილია 16,375.00 ₾ (გრანტი + ქრაუდფანდინგი)**
+**სულ შეგროვილია 16,475.00 ₾ (გრანტი + ქრაუდფანდინგი)**
 
-ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/folders/1R-csJtKf4rldJbasJLNUo2wIwzQEZxyy?usp=sharing) 15,622.62 ₾
+ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/folders/1R-csJtKf4rldJbasJLNUo2wIwzQEZxyy?usp=sharing) 15,712.62 ₾
 
 - პერიოდული გამოცემები 562.20 ₾ 
 
@@ -166,10 +164,10 @@ Table
 
 - ტექნოლოგიები 85.0 ₾
 
-- სპორტი 384.0 ₾
+- სპორტი 474.0 ₾
 
 *ჩვენი მეგობარი კომპანიების მხარდაჭერა დეტალურად იხ. [აქ](https://ontopo.netlify.app/friends)*
 
 </p></span>
 </div>
-*განახლების თარიღი: 12.04.2025*
+*განახლების თარიღი: 18.09.2025*
