@@ -498,7 +498,7 @@ body {
   <ol class="jury-list">
     <li class="jury-member">ეკა ტაბლიაშვილი</li>
     <li class="jury-member">ნათია კეკენაძე, ასისტენტ პროფესორი (იბსუ)</li>
-    <li class="jury-member">ნუკა ღამბაშიძ, სულაკაურის გამომცემლობა</li>
+    <li class="jury-member">ნუკა ღამბაშიძე, სულაკაურის გამომცემლობა</li>
     <li class="jury-member">მარიკა კაპანაძე, ანალიტიკოსი, კომპანია ეისითი</li>
   </ol>
 </div>
