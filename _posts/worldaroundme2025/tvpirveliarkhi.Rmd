@@ -379,17 +379,25 @@ body {
 
 სამზრუნველოს მხარდამჭერი და მეგობარი ორგანიზაციები მონაწილეობენ საპრიზო ფონდის შევსებაში და, დამატებით გამოყოფენ სპეციალურ ჯილდოებს. 
 
+
+
 <div class="partner-item">
-🌱 <strong>თეგეტა ჰოლდინგი</strong> სპეციალური პრიზით დააჯილდოებს გარემოს დაცვის თემატიკის ესეს ავტორს. დამატებით თეგეტა მონაწილეობს კონკურსის ზოგადი საპრიზო ფონდის შევსებაში და წიგნადი ფონდის განახლების მიზნით 500 ლარის ვაუჩერს გადასცემს ბიბლიოთეკას.
+🌱 <strong>თეგეტა გრინ პლანეტი</strong> სპეციალური პრიზით დააჯილდოებს გარემოს დაცვის თემატიკის ესეს ავტორს. დამატებით თეგეტა გრინ პლანეტი მონაწილეობს კონკურსის ზოგადი საპრიზო ფონდის შევსებაში.
 </div>
 
 <div class="partner-item">
-📚 <strong>National Geographic Magazine საქართველო</strong> ორ მონაწილეს ჟურნალის 12 თვის ნომერს გადასცემს.
+📚 <strong>თეგეტა ჰოლდინგი და თეგეტა გრინ პლანეტი</strong> ერთობლივად გადასცემენ წიგნადი ფონდის განახლების მიზნით 500 ლარის ვაუჩერს ონტოფოს ბიბლიოთეკას.
+</div>
+
+
+<div class="partner-item">
+📗 <strong>National Geographic Magazine საქართველო</strong> ორ მონაწილეს ჟურნალის 12 თვის ნომერს გადასცემს.
 </div>
 
 <div style="display: flex; gap: 1rem; justify-content: space-between;">
-<img src="https://tegeta.ge/images/social-share-en.jpg" style="width: 48%;" alt="Tegeta">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvc261orLv_9pQBAqbMKrXo8_gtK7vcvUhz9MwmSLvcG_D3bg2ycOWZGrPpm3G9Z7S9jk&usqp=CAU" style="width: 45%;" alt="National Geographic">
+<img src="https://tegeta.ge/images/social-share-en.jpg" style="width: 28%;" alt="Tegeta">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvc261orLv_9pQBAqbMKrXo8_gtK7vcvUhz9MwmSLvcG_D3bg2ycOWZGrPpm3G9Z7S9jk&usqp=CAU" style="width: 26%;" alt="National Geographic">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnx6ANq_Y4jc2_W-_-5x5QHaI3fRwd-0V6iw&s" style="width: 36%;" alt="National Geographic">
 </div>
 
 </div>
@@ -529,7 +537,7 @@ body {
 
 <div class="category-prizestegeta">
 <h3>🌍 სპეციალური მწვანე ესეს პრიზი თეგეტასგან</h3>
-<p>ტესტ 100 ლარი</p>
+<p>ტესტ 200 ლარი</p>
 </div>
 
 </div> 
