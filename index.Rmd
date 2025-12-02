@@ -150,13 +150,13 @@ Table
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
-**სულ შეგროვილია 16,475.00 ₾ (გრანტი + ქრაუდფანდინგი)**
+**სულ შეგროვილია 17,775.00 ₾ (გრანტი + ქრაუდფანდინგი)**
 
-ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/folders/1R-csJtKf4rldJbasJLNUo2wIwzQEZxyy?usp=sharing) 15,712.62 ₾
+ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/folders/1R-csJtKf4rldJbasJLNUo2wIwzQEZxyy?usp=sharing) 17,012.62 ₾
 
 - პერიოდული გამოცემები 562.20 ₾ 
 
-- წიგნები 343.08 ₾
+- წიგნები 843.08 ₾
 
 - ინვენტარი & რემონტი 14,054.34 ₾
 
@@ -166,8 +166,10 @@ Table
 
 - სპორტი 474.0 ₾
 
+- ესეების კონკურსი 800.0 ₾
+
 *ჩვენი მეგობარი კომპანიების მხარდაჭერა დეტალურად იხ. [აქ](https://ontopo.netlify.app/friends)*
 
 </p></span>
 </div>
-*განახლების თარიღი: 18.09.2025*
+*განახლების თარიღი: 02.12.2025*
