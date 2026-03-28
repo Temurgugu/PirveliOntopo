@@ -32,6 +32,12 @@ knitr::opts_chunk$set(echo = FALSE)
 
 [თეგეტა ჰოლდინგი](https://www.tegetamotors.ge/) მხარს უჭერს ონტოფოს ბიბლიოთეკის ციფრული ტექნოლოგიებით აღჭურვასა და წიგნადი ფონდის განახლებას.
 
+## 2025 წელი
+
+[თეგეტა ჰოლდინგმა](https://www.tegetamotors.ge/) დააფინანსა ბიბლიოთეკის სამზრუნველოს მიერ ორგანიზებული [ესეების კონკურსი](https://ontopo.netlify.app/posts/worldaroundme2025/).
+
+დამატებითი ინფორმაცია იხ. [აქ](https://www.marketer.ge/tegeta-eseebis-konkursi-ontofoshi/?fbclid=IwY2xjawQ0iBJleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEet2-gZj6ROgNmKnOp7LotLONmaZJBJVZdfkmZHJ81g5-G2vIjCC_apuuBRdk_aem_G9qD0_kknmryKI_2OR6MJA)
+
 ## 2024 წელი
 
 ონტოფოს ბიბლიოთეკას გადაეცა:

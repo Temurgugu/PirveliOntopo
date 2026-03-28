@@ -53,7 +53,6 @@ library(gtExtras)
 
 ![](images/bg.png){width=10%}GE08BG0000000161681915 (საქართველოდან)
 
-![](images/tbc.png){width=10%}GE16TB7647745061100123 (საქართველოდან)
 
 </p></span>
 </div>
@@ -150,13 +149,13 @@ Table
 <p style='margin-top:1em; text-align:center'>
 <p style='margin-left:1em;'>
 
-**სულ შეგროვილია 17,775.00 ₾ (გრანტი + ქრაუდფანდინგი)**
+**სულ შეგროვილია 17,859.00 ₾ (გრანტი + ქრაუდფანდინგი)**
 
-ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/folders/1R-csJtKf4rldJbasJLNUo2wIwzQEZxyy?usp=sharing) 17,012.62 ₾
+ბიბლიოთეკის მხარდაჭერისთვის [დახარჯულია](https://drive.google.com/drive/folders/1R-csJtKf4rldJbasJLNUo2wIwzQEZxyy?usp=sharing) 17,830.62 ₾
 
 - პერიოდული გამოცემები 562.20 ₾ 
 
-- წიგნები 843.08 ₾
+- წიგნები 1193.08 ₾
 
 - ინვენტარი & რემონტი 14,054.34 ₾
 
@@ -166,10 +165,10 @@ Table
 
 - სპორტი 474.0 ₾
 
-- ესეების კონკურსი 800.0 ₾
+- ესეების კონკურსი 1,268.00 ₾
 
 *ჩვენი მეგობარი კომპანიების მხარდაჭერა დეტალურად იხ. [აქ](https://ontopo.netlify.app/friends)*
 
 </p></span>
 </div>
-*განახლების თარიღი: 02.12.2025*
+*განახლების თარიღი: 28.03.2026*
